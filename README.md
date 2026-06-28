@@ -1,0 +1,2 @@
+# wdm
+wasm-dumb-math
