@@ -1,0 +1,4 @@
+.antlr
+/node_modules/
+.DS_Store
+/gen/

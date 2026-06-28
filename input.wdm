@@ -1,0 +1,10 @@
+import floor(a:f) f ->
+pub abs(a:i) i -> (a ^ (a >> 31_i)) - (a >> 31_i)
+test(a:f) f -> 10_f * (5.35_f - 3.1_f) + 12_f - a
+pub add(a:f, b:f) f -> a + b
+pub main(a:f) f -> test(a)
+pub main2() f -> add(1_f, 15_f)
+pub main3() f -> floor(6.7_f)
+pub subtract(a:f, b:f) f -> a - b
+pub multiply(a:f, b:f) f -> a * b
+pub divide(a:f, b:f) f -> a / b
